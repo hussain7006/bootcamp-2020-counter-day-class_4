@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
+import Food from './food';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Food 
+    morning   = "Have A Nice Morning !"
+    day       = "Have A Nice Afternoon !">
+    </Food>
+
   </React.StrictMode>,
   document.getElementById('root')
 );
