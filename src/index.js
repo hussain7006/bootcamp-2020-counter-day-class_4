@@ -8,8 +8,8 @@ import * as serviceWorker from './serviceWorker';
 ReactDOM.render(
   <React.StrictMode>
     <Food 
-    morning   = "Have A Nice Morning !"
-    day       = "Have A Nice Afternoon !">
+    morning   = "Have A Nice Good Morning !"
+    day       = "Have A Nice Good Afternoon !">
     </Food>
 
   </React.StrictMode>,

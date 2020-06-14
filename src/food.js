@@ -10,7 +10,7 @@ function Food(props){
     return(
         <div className={day ? "dayFood" : "nightFood" }>
             <h1>
-                {`Good ${day ? props.morning : props.day} `}
+                {`${day ? props.morning : props.day} `}
             </h1>
 
             <h2>Counter = {count}</h2>
