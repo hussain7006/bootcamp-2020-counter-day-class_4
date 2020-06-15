@@ -37,4 +37,4 @@ jobs:
       run:  npm install -g surge
     
     - name: Deploying on surge
-      run:  surge ./build bootcamp_2020-hussain.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run:  surge ./build bootcamp-2020-day-counter.surge.sh --token ${{secrets.SURGE_TOKEN}}
